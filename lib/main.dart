@@ -109,9 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
       body: Container(
-        decoration: new BoxDecoration(
-            color: Colors.black87
-        ),
+        decoration: new BoxDecoration(color: Colors.black87),
         child: AspectRatio(
           aspectRatio: 0.682,
           child: Container(

@@ -12,7 +12,7 @@ class Entity extends CustomPainter {
       canvas.drawCircle(Offset(sprite.xPos, sprite.yPos), 15.00, sprite.paint);
     });
   }
-  
+
   @override
   bool shouldRepaint(CustomPainter oldDelegate) {
     return true;
